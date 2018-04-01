@@ -17,3 +17,8 @@ async def hi():
     await bot.say("Idk")
     print("Done")
  
+#invite
+#https://discordapp.com/oauth2/authorize?client_id=430003755405279242&scope=bot
+
+token = os.environ.get("sira")
+bot.run(f'{token}')
