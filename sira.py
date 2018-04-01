@@ -25,6 +25,7 @@ try:
     f = open(banned_words)
     greetings = f.read().splitlines()
     f.close
+    print(f)
 except IOError:
     print "Couldn't find file " + banned_words
     
