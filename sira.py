@@ -27,7 +27,7 @@ try:
     f.close
     print(f)
 except IOError:
-    print "Couldn't find file " + banned_words
+    print("Couldn't find file " + banned_words)
     
 
 token = os.environ.get("sira")
