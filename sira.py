@@ -77,15 +77,17 @@ async def betaberserkerarmor(ctx):
     await bot.say(embed=embed) 
     await bot.say("https://thumb.ibb.co/fMz7ex/gSNqzbD.png".format(ctx))
     await bot.say("```Found on: Beta Berserker Crafting - Cysero Forge```")
-
-@bot.command(pass_context=True)
-async def betaberserkerarmor(ctx):
-    embed = discord.Embed(title="Beta Berserker Armor", color=0x00a0ea)
-    await bot.say(embed=embed) 
-    await bot.say("https://thumb.ibb.co/fMz7ex/gSNqzbD.png".format(ctx))
-    await bot.say("```Found on: Beta Berserker Crafting - Cysero Forge```")    
     
-
+    
+@bot.commands()
+async def armors():
+    await bot.say("alphaknightarmor")
+    await bot.say("basicarmor")
+    await bot.say("battleonmilitiaarmor")
+    await bot.say("betaberserkerarmor")
+    await bot.say("Processing...")
+    await bot.say("Done for now :sweat_smile:")
+    
     
     
     
