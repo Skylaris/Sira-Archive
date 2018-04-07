@@ -53,10 +53,19 @@ async def yulgarsinn(ctx):
     await bot.say(embed=embed)
     
 @bot.command(pass_context=True)
-async def alphaknight(ctx):
+async def alphaknightarmor(ctx):
     embed = discord.Embed(title="Alpha Knight Armor", color=0x00a0ea)
+    await bot.say(embed=embed) 
     await bot.say("https://thumb.ibb.co/k4gdKx/MflPmCe.png".format(ctx))
-    await bot.say(embed=embed)    
+    await bot.say("```Found on: Melodia's Shop, Sanctuary```")
+
+@bot.command(pass_context=True)
+async def basicarmor(ctx):
+    embed = discord.Embed(title="Basic Armor", color=0x00a0ea)
+    await bot.say(embed=embed) 
+    await bot.say("https://thumb.ibb.co/dBhw6c/fhoUF5K.png".format(ctx))
+    await bot.say("```Found on: N/A```")    
+    
     
 
     
