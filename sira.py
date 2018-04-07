@@ -65,7 +65,25 @@ async def basicarmor(ctx):
     await bot.say(embed=embed) 
     await bot.say("https://thumb.ibb.co/dBhw6c/fhoUF5K.png".format(ctx))
     await bot.say("```Found on: N/A```")    
-    
+@bot.command(pass_context=True)
+async def battleonmilitiaarmor(ctx):
+    embed = discord.Embed(title="Battleon Militia Armor", color=0x00a0ea)
+    await bot.say(embed=embed) 
+    await bot.say("https://thumb.ibb.co/j8z16c/n4AAzEc.png".format(ctx))
+    await bot.say("```Found on: Battleon Militia Craft Shop (Seasonal)```")
+@bot.command(pass_context=True)
+async def betaberserkerarmor(ctx):
+    embed = discord.Embed(title="Beta Berserker Armor", color=0x00a0ea)
+    await bot.say(embed=embed) 
+    await bot.say("https://thumb.ibb.co/fMz7ex/gSNqzbD.png".format(ctx))
+    await bot.say("```Found on: Beta Berserker Crafting - Cysero Forge```")
+
+@bot.command(pass_context=True)
+async def betaberserkerarmor(ctx):
+    embed = discord.Embed(title="Beta Berserker Armor", color=0x00a0ea)
+    await bot.say(embed=embed) 
+    await bot.say("https://thumb.ibb.co/fMz7ex/gSNqzbD.png".format(ctx))
+    await bot.say("```Found on: Beta Berserker Crafting - Cysero Forge```")    
     
 
     
