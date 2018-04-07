@@ -81,13 +81,23 @@ async def betaberserkerarmor(ctx):
     
 @bot.command()
 async def armors():
-    await bot.say("alphaknightarmor")
-    await bot.say("basicarmor")
-    await bot.say("battleonmilitiaarmor")
-    await bot.say("betaberserkerarmor")
+    await bot.say("```alphaknightarmor```")
+    await bot.say("```basicarmor```")
+    await bot.say("```battleonmilitiaarmor```")
+    await bot.say("```betaberserkerarmor```")
     await bot.say("Processing...")
     await bot.say("Done for now :sweat_smile:")
+@bot.command()
+async def belts():
+    await bot.say("```adventurersbelt```")
+    await bot.say("```alphaknightbelt```")
+    await bot.say("```ashbrandbelt```")
+    await bot.say("```betaberserkerbelt```")
+    await bot.say("```burntsash```")
+    await bot.say("```chronomancerbelt```")
     
+    await bot.say("Processing...")
+    await bot.say("Done for now :sweat_smile:")   
     
     
     
