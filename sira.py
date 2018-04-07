@@ -55,7 +55,7 @@ async def yulgarsinn(ctx):
 @bot.command(pass_context=True)
 async def alphaknight(ctx):
     embed = discord.Embed(title="Alpha Knight Armor", color=0x00a0ea)
-    embed.set_thumbnail(url = "https://thumb.ibb.co/k4gdKx/MflPmCe.png")
+    await bot.say("https://thumb.ibb.co/k4gdKx/MflPmCe.png".format(ctx))
     await bot.say(embed=embed)    
     
 
