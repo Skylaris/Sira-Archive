@@ -79,7 +79,7 @@ async def betaberserkerarmor(ctx):
     await bot.say("```Found on: Beta Berserker Crafting - Cysero Forge```")
     
     
-@bot.commands()
+@bot.command()
 async def armors():
     await bot.say("alphaknightarmor")
     await bot.say("basicarmor")
