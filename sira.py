@@ -20,7 +20,44 @@ async def battleon(ctx):
     embed = discord.Embed(title="Battleon", color=0x00a0ea)
     embed.set_thumbnail(url = "https://thumb.ibb.co/euN8un/AQ3_D_Logo_T_shirt.png")
     await bot.say(embed=embed)
-
-
+    
+@bot.command(pass_context=True)
+async def battleonbank(ctx):
+    embed = discord.Embed(title="Battleon Bank", color=0x00a0ea)
+    embed.set_thumbnail(url = "https://thumb.ibb.co/euN8un/AQ3_D_Logo_T_shirt.png")
+    await bot.say(embed=embed)
+@bot.command(pass_context=True)
+async def classtrainers(ctx):
+    embed = discord.Embed(title="Class Trainers", color=0x00a0ea)
+    embed.set_thumbnail(url = "https://thumb.ibb.co/euN8un/AQ3_D_Logo_T_shirt.png")
+    await bot.say(embed=embed)
+@bot.command(pass_context=True)
+async def cyseroforge(ctx):
+    embed = discord.Embed(title="Cysero's Forge", color=0x00a0ea)
+    embed.set_thumbnail(url = "https://thumb.ibb.co/euN8un/AQ3_D_Logo_T_shirt.png")
+    await bot.say(embed=embed)
+@bot.command(pass_context=True)
+async def guardiantower(ctx):
+    embed = discord.Embed(title="Guardian Tower", color=0x00a0ea)
+    embed.set_thumbnail(url = "https://thumb.ibb.co/euN8un/AQ3_D_Logo_T_shirt.png")
+    await bot.say(embed=embed)
+@bot.command(pass_context=True)
+async def magicshoppe(ctx):
+    embed = discord.Embed(title="Magic Shoppe", color=0x00a0ea)
+    embed.set_thumbnail(url = "https://thumb.ibb.co/euN8un/AQ3_D_Logo_T_shirt.png")
+    await bot.say(embed=embed)
+@bot.command(pass_context=True)
+async def yulgarsinn
+    embed = discord.Embed(title="Yulgars Inn", color=0x00a0ea)
+    embed.set_thumbnail(url = "https://thumb.ibb.co/euN8un/AQ3_D_Logo_T_shirt.png")
+    await bot.say(embed=embed)
+    
+    
+    
+    
+    
+    
+    
+    
 token = os.environ.get("sira")
 bot.run(f'{token}')
