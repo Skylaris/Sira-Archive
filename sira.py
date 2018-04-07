@@ -17,10 +17,9 @@ async def on_ready():
     
 @bot.command(pass_context=True)
 async def battleon(ctx):
-    
     embed = discord.Embed(title="Battleon", color=0x00a0ea)
     embed.set_thumbnail(url = "https://thumb.ibb.co/euN8un/AQ3_D_Logo_T_shirt.png")
-await bot.say(embed=embed)
+    await bot.say(embed=embed)
 
 
 token = os.environ.get("sira")
